@@ -2,7 +2,7 @@
 ## Title: FuBar - |cffffffffContainer|r|cff00ff00Fu|r 
 ## Notes: Keeps track of bags/containers including bags, bank and keyring.
 ## Author: Choronzon
-## X-eMail: thomas.scheuringer AT gmail.com
+## X-eMail: c3x111 AT gmail.com
 ## OptionalDepts: Ace2, FuBar
 ## SavedVariables: ContainerFuDB
 ## SavedVariablesPerCharacter: ContainerFuDBPerChar
