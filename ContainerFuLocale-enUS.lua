@@ -11,4 +11,7 @@ L:RegisterTranslations("enUS", function() return {
 	["SHOW_KEYDATA_IN_TOOLTIP"] = "Show key data in tooltip.",
 	["SHOW_BANKDATA_IN_TOOLTIP"] = "Show bank data in tooltip.",
 	["KEYRING"] = "Keyring",
+	["MOUNTS"] = "Mounts",
+	["CRITTERS"] = "Critters",
+	["COMPANIONS"] = "Companions",
 } end)

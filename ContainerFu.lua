@@ -219,6 +219,37 @@ function ContainerFu:OnTooltipUpdate()
 		)
 	end
 
+	-- Companions - Critters and Mounts
+	local numMounts = GetNumCompanions('MOUNT')
+	local numCritters = GetNumCompanions('CRITTER')
+
+	if numMounts > 0 or numCritters > 0 then
+		cat = tablet:AddCategory(
+		'text', L["COMPANIONS"],
+		'columns', 2,
+		'child_textR', 1,
+		'child_textG', 1,
+		'child_textB', 0,
+		'child_textR2', 1,
+		'child_textG2', 1,
+		'child_textB2', 1
+		)
+
+		if numMounts > 0 then
+			cat:AddLine(
+				'text', L["MOUNTS"],
+				'text2', numMounts
+			)
+		end
+
+		if numCritters > 0 then
+			cat:AddLine(
+				'text', L["CRITTERS"],
+				'text2', numCritters
+			)
+		end
+	end
+
 	--tablet:setHint("Click to do something")
 	-- as a rule, if you have an OnClick or OnDoubleClick or OnMouseUp
 end

@@ -11,4 +11,7 @@ L:RegisterTranslations("deDE", function() return {
 	["SHOW_KEYDATA_IN_TOOLTIP"] = "Zeige Schl\195\188sseldaten im Tooltip.",
 	["SHOW_BANKDATA_IN_TOOLTIP"] = "Zeige Bankdaten im Tooltip.",
 	["KEYRING"] = "Schl\195\188sselbund",
+	["MOUNTS"] = "Reittiere",
+	["CRITTERS"] = "Haustiere",
+	["COMPANIONS"] = "Begleiter",
 } end)
