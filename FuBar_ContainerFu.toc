@@ -1,4 +1,4 @@
-## Interface: 30200
+## Interface: 30300
 ## Title: FuBar - |cffffffffContainer|r|cff00ff00Fu|r 
 ## Notes: Keeps track of bags/containers including bags, bank and keyring.
 ## Author: Choronzon
@@ -6,7 +6,7 @@
 ## OptionalDepts: Ace2, FuBar
 ## SavedVariables: ContainerFuDB
 ## SavedVariablesPerCharacter: ContainerFuDBPerChar
-## Version: 20003 - 0.1
+## Version: 30300 - 0.1
 ## X-Category: Interface Enhancements
 
 Libs\Tablet-2.0\Tablet-2.0.lua
